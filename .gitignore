@@ -1,0 +1,32 @@
+# Compiled binaries
+ShellForge
+shellforge
+msgbus-broker
+msgbus-sub
+msgbus-pub
+msgbus-publisher
+msgbus-clean
+msgbus-bench
+
+# Build directories and artifacts
+bin/
+build/
+lib/
+*.o
+*.a
+*.so
+
+# MsgBus local build outputs
+msgbus/benchmark
+msgbus/broker
+msgbus/cleaner
+msgbus/publisher
+msgbus/subscriber
+msgbus/bin/
+msgbus/build/
+msgbus/lib/
+
+# Temporary runtime files
+*.wal
+*Zone.Identifier*
+.DS_Store
